@@ -4,8 +4,8 @@ import fs from 'fs';
 import path from 'path';
 
 const repos = [
-  { name: 'coolify', repo: 'coollabsio/coolify' },
-  { name: 'docs', repo: 'coollabsio/coolify-docs' }
+  { name: 'arvialo', repo: 'AzhaanGlitch/arvialo-web' },
+  { name: 'docs', repo: 'AzhaanGlitch/arvialo-web' }
 ];
 
 function isBot(user) {
@@ -97,7 +97,7 @@ async function main() {
         if (c.type === 'Anonymous') {
           return {
             login: 'Anonymous',
-            avatar_url: '/android-launchericon-144-144.png', // Use Coolify logo for anonymous contributors
+            avatar_url: '/android-launchericon-144-144.png', // Use arvialo logo for anonymous contributors
             html_url: null, // Anonymous contributors don't have profile links
             contributions: c.contributions
           };
@@ -123,7 +123,7 @@ async function main() {
     fs.writeFileSync(outputPath, JSON.stringify(result, null, 2));
 
     console.log('\n✅ Contributors data saved to public/contributors.json');
-    console.log(`📊 Coolify contributors: ${result.coolify.length}`);
+    console.log(`📊 arvialo contributors: ${result.arvialo.length}`);
     console.log(`📚 Docs contributors: ${result.docs.length}`);
 
   } catch (error) {
