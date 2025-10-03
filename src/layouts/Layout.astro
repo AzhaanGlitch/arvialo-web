@@ -1,0 +1,295 @@
+---
+import Footer from "../components/Footer.astro";
+
+export interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="48x48"
+      href="/android-launchericon-48-48.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="72x72"
+      href="/android-launchericon-72-72.png"
+    />
+    <link
+      rel="icon"
+     type="image/png"
+      sizes="96x96"
+      href="/android-launchericon-96-96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="144x144"
+      href="/android-launchericon-144-144.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/android-launchericon-192-192.png"
+    />
+    <link
+      rel="icon"
+ type="image/png"
+      sizes="512x512"
+      href="/android-launchericon-512-512.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#ffc40d" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="Description"
+      content="Arvialo: An open-source & self-hostable alternative to Vercel, Heroku, Netlify and Railway for easily deploying websites, databases, web applications and 280+ one-click services to your own server."
+/>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Arvialoio" />
+    <meta name="twitter:title" content="Arvialo" />
+    <meta
+      name="twitter:description"
+      content="Arvialo: An open-source & self-hostable alternative to Vercel, Heroku, Netlify and Railway for easily deploying websites, databases, web applications and 280+ one-click services to your own server."
+/>
+    <meta
+      name="twitter:image"
+      content="https://cdn.coollabs.io/assets/Arvialo/og-image.png"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://Arvialo.io" />
+    <meta property="og:title" content="Arvialo" />
+    <meta
+      property="og:description"
+      content="Arvialo: An open-source & self-hostable alternative to Vercel, Heroku, Netlify and Railway for easily deploying websites, databases, web applications and 280+ one-click services to your own server."
+/>
+    <meta property="og:site_name" content="Arvialo" />
+    <meta
+      property="og:image"
+      content="https://cdn.coollabs.io/assets/Arvialo/og-image.png"
+    />
+    <title>{title}</title>
+    <link rel="me" href="https://fosstodon.org/@andrasbacsai" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+  </head>
+  <body style="background-color: #000000;">
+    <main class="mx-auto">
+      <nav class="bg-black text-white sticky top-0 z-50 border-b-2 border-white">
+        <div class="mx-auto flex items-center justify-between px-6 py-[15px]">
+          <div class="flex items-center gap-8">
+     <a href="/" class="flex shrink-0 items-center gap-2">
+              <img
+                src="/public/Arvialo png.png"
+                style="height: 40px;"
+width="40px"
+              />
+              <span class="text-xl font-bold">Arvialo</span>
+            </a>
+            <div class="hidden md:flex items-center gap-8 text-lg">
+              <a href="/contributors" class="hover:text-gray-300"
+                >Contributors</a
+     >
+              <a href="/pricing" class="hover:text-gray-300">Pricing</a>
+              <a href="https://arvialo.io/docs/" class="hover:text-gray-300"
+                >Docs</a
+              >
+            </div>
+          </div>
+
+          <div
+class="flex items-center gap-4">
+            <div class="hidden md:block">
+              <a
+                href="https://app.arvialo.io"
+                class="bg-white text-black px-4 py-2 rounded text-base font-semibold hover:bg-gray-200 text-lg"
+              >
+                To
+Cloud
+              </a>
+            </div>
+            <button
+              id="mobile-menu-button"
+              class="md:hidden rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+            >
+ <span class="sr-only">Open main menu</span>
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+  stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden px-4 pb-4">
+          <a
+            href="/contributors"
+            class="block rounded-md px-3 py-2
+text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+            >Contributors</a
+          >
+          <a
+            href="/pricing"
+            class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+            >Pricing</a
+          >
+<a
+            href="https://arvialo.io/docs/"
+            class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+            >Docs</a
+          >
+          <a
+            href="https://app.arvialo.io"
+            class="mt-4 block w-full rounded-md bg-white px-4 py-2 text-center text-base font-semibold text-black hover:bg-gray-200"
+         >
+            To Cloud
+          </a>
+        </div>
+      </nav>
+
+      <div class="text-center pt-12 md:pt-24">
+        <slot />
+      </div>
+    </main>
+    <style is:global>
+      html {
+        font-family: "Inter", sans-serif;
+}
+      .navbar-link {
+        @apply text-white text-xs md:text-base hover:bg-coolgray-200 p-2 px-2 rounded flex gap-2;
+}
+      .icon {
+        @apply w-6 h-6;
+}
+      .button {
+        @apply bg-coolgray-300 hover:bg-coolgray-400 text-white px-4 py-2 text-base font-semibold leading-6 rounded;
+}
+
+      @font-face {
+        font-display: swap;
+        font-family: "Inter";
+font-style: normal;
+        font-weight: 100;
+        src: url("../fonts/inter-v13-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-100.woff2")
+          format("woff2");
+}
+
+      @font-face {
+        font-display: swap;
+        font-family: "Inter";
+font-style: normal;
+        font-weight: 200;
+        src: url("../fonts/inter-v13-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-200.woff2")
+          format("woff2");
+}
+
+      @font-face {
+        font-display: swap;
+        font-family: "Inter";
+font-style: normal;
+        font-weight: 300;
+        src: url("../fonts/inter-v13-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-300.woff2")
+          format("woff2");
+}
+
+      @font-face {
+        font-display: swap;
+        font-family: "Inter";
+font-style: normal;
+        font-weight: 500;
+        src: url("../fonts/inter-v13-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-500.woff2")
+          format("woff2");
+}
+
+      @font-face {
+        font-display: swap;
+        font-family: "Inter";
+font-style: normal;
+        font-weight: 600;
+        src: url("../fonts/inter-v13-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-600.woff2")
+          format("woff2");
+}
+
+      @font-face {
+        font-display: swap;
+        font-family: "Inter";
+font-style: normal;
+        font-weight: 700;
+        src: url("../fonts/inter-v13-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-700.woff2")
+          format("woff2");
+}
+
+      @font-face {
+        font-display: swap;
+        font-family: "Inter";
+font-style: normal;
+        font-weight: 800;
+        src: url("../fonts/inter-v13-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-800.woff2")
+          format("woff2");
+}
+
+      @font-face {
+        font-display: swap;
+        font-family: "Inter";
+font-style: normal;
+        font-weight: 900;
+        src: url("../fonts/inter-v13-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-900.woff2")
+          format("woff2");
+}
+
+      @font-face {
+        font-dayoutdisplay: swap;
+        font-family: "Inter";
+font-style: normal;
+        font-weight: 400;
+        src: url("../fonts/inter-v13-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-regular.woff2")
+          format("woff2");
+}
+
+      @media (max-width: 768px) {
+        .navbar-link {
+          @apply flex gap-2 items-center w-full text-left mb-1;
+}
+      }
+    </style>
+
+    <script
+      defer
+      data-domain="Arvialo.io"
+      src="https://analytics.coollabs.io/js/script.tagged-events.js"
+    ></script>
+
+    <Footer />
+
+    <script>
+      const mobileMenuButton = document.getElementById("mobile-menu-button");
+const mobileMenu = document.getElementById("mobile-menu");
+
+      mobileMenuButton?.addEventListener("click", () => {
+        mobileMenu?.classList.toggle("hidden");
+      });
+</script>
+  </body>
+</html>
