@@ -1,18 +1,19 @@
 {
-  "name": "@coollabsio/arvialo.io",
+  "name": "@arvialo.io",
   "version": "1.0.0",
   "private": true,
-  "description": "Landing pages of coolLabs",
+  "description": "Landing pages of arvialo",
   "keywords": [
     "astro",
     "svelte",
     "tailwindcss",
     "typescript",
     "landing page",
-    "coolLabs",
-    "coolify"
+    "arvialo"
   ],
-  "author": "Andras Bacsai",
+  "author": ["Azhaan Ali Siddiqui", 
+  "Ekjot Singh"
+],
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
