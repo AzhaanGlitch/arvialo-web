@@ -6,30 +6,30 @@
     {
       question: "Do I get any Cloud‑only features?",
       answer:
-        "No, Coolify Cloud and self‑hosted share the same features. Cloud adds conveniences like auto‑backups, email alerts, scaling, and update testing.",
+        "No, Arvialo Cloud and self‑hosted share the same features. Cloud adds conveniences like auto‑backups, email alerts, scaling, and update testing.",
     },
     {
-      question: "Does Coolify Cloud back up my application data?",
+      question: "Does Arvialo Cloud back up my application data?",
       answer:
-        "No, only Coolify’s dashboard database is backed up. You’re responsible for backing up your app databases and storage.",
+        "No, only Arvialo’s dashboard database is backed up. You’re responsible for backing up your app databases and storage.",
     },
     {
-      question: "Can I import self‑hosted configs into Coolify Cloud?",
-      answer: "No, you can’t migrate Coolify settings.",
+      question: "Can I import self‑hosted configs into Arvialo Cloud?",
+      answer: "No, you can’t migrate Arvialo settings.",
     },
     {
-      question: "How often is Coolify Cloud backed up?",
+      question: "How often is Arvialo Cloud backed up?",
       answer: "Every 24 hours.",
     },
     {
-      question: "Is Coolify Cloud based on the open‑source version?",
+      question: "Is Arvialo Cloud based on the open‑source version?",
       answer:
         "Yes, both use the same open‑source code. Cloud is simply a managed service.",
     },
     {
       question: "What happens if I cancel my subscription?",
       answer:
-        "You’ll lose access to Cloud at the end of your billing period, but your servers and apps stay running normally. Automations & integrations will be disabled, so new deployments through Coolify Cloud will not be possible.",
+        "You’ll lose access to Cloud at the end of your billing period, but your servers and apps stay running normally. Automations & integrations will be disabled, so new deployments through Arvialo Cloud will not be possible.",
     },
     {
       question: "What if I miss a payment?",
@@ -37,32 +37,32 @@
         "Access to Cloud is paused until payment is resolved, but your apps and servers remain unaffected.",
     },
     {
-      question: "Are there IPs to whitelist for Coolify Cloud?",
+      question: "Are there IPs to whitelist for Arvialo Cloud?",
       answer:
         "Yes, Cloud requires access to your SSH port via specific IPs (listed in our docs).",
     },
     {
       question: "Do I need to bring my own servers?",
       answer:
-        "Yes, Coolify Cloud requires your own servers (VPS, Pi, EC2, etc.) to deploy applications.",
+        "Yes, Arvialo Cloud requires your own servers (VPS, Pi, EC2, etc.) to deploy applications.",
     },
     {
       question: "Why pay if I provide my own servers?",
       answer:
-        "The fee covers the Coolify hosted by us — we manage, monitor, and update it on our infrastructure, which has its own costs.",
+        "The fee covers the Arvialo hosted by us — we manage, monitor, and update it on our infrastructure, which has its own costs.",
     },
     {
       question: "What happens if I exceed my server limit?",
       answer: "You’ll need to upgrade your plan before adding more servers.",
     },
     {
-      question: "Is there a trial for Coolify Cloud?",
+      question: "Is there a trial for Arvialo Cloud?",
       answer:
         "No trial currently, but the $5/month Cloud plan supports up to two servers. You can self‑host to test everything for free.",
     },
     { question: "Are discounts available?", answer: "No" },
     {
-      question: "Am I locked into Coolify Cloud?",
+      question: "Am I locked into Arvialo Cloud?",
       answer:
         "Not really, you retain full control. If you stop paying, your apps keep running without any issues. Also we are working on a way to migrate your data to self-hosting and vice versa.",
     },
@@ -97,7 +97,7 @@
           ></span>
         </p>
         <p class="text-sm leading-6 text-neutral-400 mb-4 pt-4 text-left">
-          Deploy Coolify on your infrastructure without any restrictions on
+          Deploy Arvialo on your infrastructure without any restrictions on
           features.
         </p>
         <ul class="space-y-4 text-sm leading-6 pt-2 text-white text-left">
@@ -105,7 +105,7 @@
             {@html checkmark()}Full access to all features
           </li>
           <li class="flex items-start">
-            {@html checkmark()}Need your own infrastructure for Coolify
+            {@html checkmark()}Need your own infrastructure for Arvialo
           </li>
           <li class="flex items-start">
             {@html checkmark()}No limitation or restrictions
@@ -202,7 +202,7 @@
         </p>
 
         <p class="text-sm leading-6 text-neutral-400 mb-6 text-left">
-          Just connect your servers, Coolify runs on our managed infrastructure.
+          Just connect your servers, Arvialo runs on our managed infrastructure.
         </p>
         <ul class="space-y-4 text-sm leading-6 text-white text-left">
           <li class="flex items-start">
@@ -212,7 +212,7 @@
             {@html checkmark()}Unlimited deployments per server
           </li>
           <li class="flex items-start">
-            {@html checkmark()}Free email alerts for Coolify events
+            {@html checkmark()}Free email alerts for Arvialo events
           </li>
           <li class="flex items-start">
             {@html checkmark()}Community + limited email support
@@ -251,7 +251,7 @@
               >, DigitalOcean, AWS, etc.).
               <br /><br />
               Your apps will be deployed on the server you connect to the cloud,
-              while Coolify runs on our managed server.
+              while Arvialo runs on our managed server.
               <br /><br />
               (You can connect your RPi, old laptop, or any other device that runs
               the
@@ -331,22 +331,22 @@
           <td class="px-6 py-4 text-neutral-400">Open source</td>
         </tr>
         <tr>
-          <td class="px-6 py-4">Coolify Hosting</td>
+          <td class="px-6 py-4">Arvialo Hosting</td>
           <td class="px-6 py-4 text-neutral-400">Self-managed</td>
           <td class="px-6 py-4 text-neutral-400">Managed</td>
         </tr>
         <tr>
-          <td class="px-6 py-4">Coolify Dashboard Domain</td>
+          <td class="px-6 py-4">Arvialo Dashboard Domain</td>
           <td class="px-6 py-4 text-neutral-400">Custom Domain</td>
           <td class="px-6 py-4 text-neutral-400">app.arvialo.io</td>
         </tr>
         <tr>
-          <td class="px-6 py-4">Coolify Setup</td>
+          <td class="px-6 py-4">Arvialo Setup</td>
           <td class="px-6 py-4 text-neutral-400">Manual</td>
           <td class="px-6 py-4 text-neutral-400">Managed</td>
         </tr>
         <tr>
-          <td class="px-6 py-4">Coolify Backups</td>
+          <td class="px-6 py-4">Arvialo Backups</td>
           <td class="px-6 py-4 text-neutral-400"
             >Self-managed (but automated)</td
           >
@@ -361,7 +361,7 @@
               <span
                 class="absolute bottom-full left-0 mb-2 min-w-max max-w-sm rounded bg-black text-white text-xs px-3 py-2 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity z-10 whitespace-nowrap"
               >
-                Limited to Coolify updates, does not include changes to deployed
+                Limited to Arvialo updates, does not include changes to deployed
                 resources.
               </span>
             </span>

@@ -5,7 +5,7 @@
   onMount(async () => {
     const { count } = await (
       await fetch(`${url}/instances`, {
-        headers: { "cool-api-key": "coolify" },
+        headers: { "cool-api-key": "Arvialo" },
       })
     ).json();
     instances = count.toLocaleString() + "+";
