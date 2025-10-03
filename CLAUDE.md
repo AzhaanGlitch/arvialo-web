@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the landing page for coolify.io, an open-source self-hostable Heroku/Netlify/Vercel alternative. The site is built with Astro, Svelte, and Tailwind CSS.
+This is the landing page for arvialo.io, an open-source self-hostable Heroku/Netlify/Vercel alternative. The site is built with Astro, Svelte, and Tailwind CSS.
 
 ## Tech Stack Architecture
 

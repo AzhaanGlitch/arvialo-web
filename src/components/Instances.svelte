@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  let url = "https://undead.coolify.io";
+  let url = "https://undead.arvialo.io";
   let instances = "loading.";
   onMount(async () => {
     const { count } = await (

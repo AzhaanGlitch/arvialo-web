@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "@coollabsio/coolify.io",
+      "name": "@coollabsio/arvialo.io",
       "dependencies": {
         "@astrojs/sitemap": "3.3.0",
         "@astrojs/svelte": "5.0.3",

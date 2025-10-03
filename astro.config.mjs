@@ -5,7 +5,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://coolify.io",
+  site: "https://arvialo.io",
   vite: {
     optimizeDeps: {
       include: ['lodash.get', 'lodash.isequal', 'lodash.clonedeep']

@@ -69,7 +69,7 @@
     {
       question: "Can I use my own domain for the Cloud dashboard?",
       answer:
-        "No, the Cloud dashboard is only available at https://app.coolify.io. Using your own domain requires self‑hosting.",
+        "No, the Cloud dashboard is only available at https://app.arvialo.io. Using your own domain requires self‑hosting.",
     },
   ];
 
@@ -123,7 +123,7 @@
       </div>
       <div class="mt-6">
         <a
-          href="https://coolify.io/docs/get-started/installation"
+          href="https://arvialo.io/docs/get-started/installation"
           class="text-base font-medium rounded p-4 px-10 text-white bg-coolgray-300 hover:bg-coolgray-400 flex justify-center items-center gap-2"
         >
           <svg
@@ -246,7 +246,7 @@
               You need to bring your own servers from any cloud provider (such
               as
               <a
-                href="https://coolify.io/hetzner"
+                href="https://arvialo.io/hetzner"
                 class="underline text-white hover:text-warning">Hetzner</a
               >, DigitalOcean, AWS, etc.).
               <br /><br />
@@ -256,7 +256,7 @@
               (You can connect your RPi, old laptop, or any other device that runs
               the
               <a
-                href="https://coolify.io/docs/get-started/installation#_2-supported-operating-systems"
+                href="https://arvialo.io/docs/get-started/installation#_2-supported-operating-systems"
                 class="underline text-white hover:text-warning"
                 >supported operating systems</a
               >.)
@@ -266,7 +266,7 @@
       </div>
       <div class="mt-6">
         <a
-          href="https://app.coolify.io/register"
+          href="https://app.arvialo.io/register"
           class="text-base font-medium rounded p-4 px-10 text-white bg-coolgray-300 hover:bg-coolgray-400 flex justify-center items-center gap-2"
         >
           <!-- Cloud Icon -->
@@ -338,7 +338,7 @@
         <tr>
           <td class="px-6 py-4">Coolify Dashboard Domain</td>
           <td class="px-6 py-4 text-neutral-400">Custom Domain</td>
-          <td class="px-6 py-4 text-neutral-400">app.coolify.io</td>
+          <td class="px-6 py-4 text-neutral-400">app.arvialo.io</td>
         </tr>
         <tr>
           <td class="px-6 py-4">Coolify Setup</td>
